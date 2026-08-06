@@ -148,23 +148,8 @@ The dashboards monitored:
 
 ## Process Flow
 
-```text
-Customer and contract data
-        ↓
-SQL customer selection
-        ↓
-Power BI cohort and offer logic
-        ↓
-Power Automate personalised email
-        ↓
-Customer opens unique link
-        ↓
-Customer accepts terms and submits the form
-        ↓
-Salesforce and database records updated
-        ↓
-Power BI performance and insight reporting
-```
+![Automated renewal process](images/Project Overview Flow.png)
+
 
 ---
 
