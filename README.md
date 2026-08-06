@@ -75,9 +75,10 @@ Customers with an additional Wi-Fi device or a currently suspended service were 
 </ul>
 <p>Customers were then split into a control group and different offer groups.</p>
 <p>
-<li>First-Contract Customers — Overbuilt Areas - Overall, 90% received an email.</li>
-<li>First-Contract Customers — Not-Overbuilt Areas - Overall, 90% received an email.</li>
-<li>Subsequent-Contract Customers - The same logic was used across overbuilt and non-overbuilt areas - Overall, 80% received an email.</li></p><br>
+<ul>
+<li><strong>First-Contract Customers — Overbuilt Areas</strong> - Overall, 90% received an email.</li>
+<li><strong>First-Contract Customers — Not-Overbuilt Areas</strong> - Overall, 90% received an email.</li>
+<li><strong>Subsequent-Contract Customers</strong> - The same logic was used across overbuilt and non-overbuilt areas - Overall, 80% received an email.</li></ul>ul></p><br>
 <p>This structure allowed the business to compare the impact of discount level, speed upgrade and competition on renewal rate, churn and recontract ARPU.</p>
 </td>
 <td width="65%" valign="top">
