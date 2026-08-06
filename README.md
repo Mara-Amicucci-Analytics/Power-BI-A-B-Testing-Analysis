@@ -64,10 +64,10 @@ Customers with an additional Wi-Fi device or a currently suspended service were 
 
 <table>
 <tr>
-<td width="35%" valign="top">
+<td width="65%" valign="top">
 <img src="images/Cohort%20Logic.png" alt="Customer cohort and offer logic" width="100%">
 </td>
-<td width="65%" valign="top">
+<td width="35%" valign="top">
 <h3>Cohort and Offer Logic</h3>
 <p>Power BI combined data from different sources and applied the cohort rules.</p>
 <p>Customers were grouped based on:</p>
