@@ -61,14 +61,10 @@ Customers were filtered based on their contract end date, service status and oth
 Customers with an additional Wi-Fi device or a currently suspended service were excluded from all cohorts.
 
 ---
-
+### 2. Cohort and Offer Logic
 <table>
 <tr>
-<td width="65%" valign="top">
-<img src="images/Cohort%20Logic.png" alt="Customer cohort and offer logic" width="100%">
-</td>
 <td width="35%" valign="top">
-<h3>Cohort and Offer Logic</h3>
 <p>Power BI combined data from different sources and applied the cohort rules.</p>
 <p>Customers were grouped based on:</p>
 <ul>
@@ -79,12 +75,15 @@ Customers with an additional Wi-Fi device or a currently suspended service were 
 </ul>
 <p>Customers were then split into a control group and different offer groups.</p>
 </td>
+<td width="65%" valign="top">
+<img src="images/Cohort%20Logic.png" alt="Customer cohort and offer logic" width="100%">
+</td>
 </tr>
 </table>
 
 
 ---
-### 2. Cohort and Offer Logic
+
 
 ![Cohort Logic](images/Cohort%20Logic.png)
 
