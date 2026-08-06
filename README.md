@@ -61,9 +61,14 @@ Customers were filtered based on their contract end date, service status and oth
 Customers with an additional Wi-Fi device or a currently suspended service were excluded from all cohorts.
 
 ---
-```html
+
 <table>
   <tr>
+    <td width="45%" valign="top">
+      <img src="Cohort%20Logic.png"
+           alt="Customer cohort and offer logic"
+           width="100%">
+    </td>
     <td width="55%" valign="top">
       <h3>Cohort and Offer Logic</h3>
 
@@ -83,11 +88,6 @@ Customers with an additional Wi-Fi device or a currently suspended service were 
       <p>
         Customers were then split into a control group and different offer groups.
       </p>
-    </td>
-    <td width="45%" valign="top">
-      <img src="Cohort%20Logic.png"
-           alt="Customer cohort and offer logic"
-           width="100%">
     </td>
   </tr>
 </table>
