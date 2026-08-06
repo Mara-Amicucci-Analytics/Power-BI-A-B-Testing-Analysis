@@ -65,7 +65,7 @@ Customers with an additional Wi-Fi device or a currently suspended service were 
 <table>
   <tr>
     <td width="45%" valign="top">
-      <img src="Cohort%20Logic.png"
+      <img src="images/Cohort%20Logic.png"
            alt="Customer cohort and offer logic"
            width="100%">
     </td>
