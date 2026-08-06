@@ -81,22 +81,7 @@ Customers with an additional Wi-Fi device or a currently suspended service were 
 </tr>
 </table>
 
-
 ---
-
-
-![Cohort Logic](images/Cohort%20Logic.png)
-
-Power BI combined data from different sources and applied the cohort rules.
-
-Customers were grouped based on:
-
-- Whether they were on their **first or a subsequent contract**
-- Whether they lived in an **overbuilt or non-overbuilt area**
-- Whether they were eligible for a **speed upgrade**
-- The discount level included in the offer
-
-The customers were then split into a control group and different offer groups.
 
 #### First-Contract Customers — Overbuilt Areas
 
