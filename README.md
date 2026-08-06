@@ -64,6 +64,8 @@ Customers with an additional Wi-Fi device or a currently suspended service were 
 
 ### 2. Cohort and Offer Logic
 
+![Cohort Logic](images/Cohort%20Logic.png)
+
 Power BI combined data from different sources and applied the cohort rules.
 
 Customers were grouped based on:
