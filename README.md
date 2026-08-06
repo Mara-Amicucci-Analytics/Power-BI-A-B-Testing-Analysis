@@ -152,19 +152,29 @@ The dashboards monitored:
 
 ## Results and Insights
 
-The project delivered clear commercial and operational improvements:
-
-- The recontract rate for customers receiving the email was approximately **double** the rate of the control group
-- The one-click renewal email achieved a response rate of **over 20%**
-- Customers offered an upgrade to the next speed tier achieved a response rate of **over 30%**
-- Customers offered renewal on their current speed achieved a response rate of approximately **20%**
-- Recontract ARPU became higher and more consistent
-- Churn reduced in areas with stronger competition
-- The business gained a clearer view of how discount level and upgrade offers affected customer behaviour
-- Customers could renew without calling the contact centre
-- The Loyalty team stopped making renewal-related outbound calls, reducing their workload
-
-The strongest result came from the speed-upgrade offer. Customers were more likely to respond when the renewal included a clear improvement to their service, rather than only extending their existing package.
+<table>
+<tr>
+<td width="35%" valign="top">
+<p>The project delivered clear commercial and operational improvements:</p>
+<ul>
+<li>The recontract rate for customers receiving the email was approximately <strong>double</strong> the rate of the control group</li>
+<li>The one-click renewal email achieved a response rate of <strong>over 20%</strong></li>
+<li>Customers offered an upgrade to the next speed tier achieved a response rate of <strong>over 30%</strong></li>
+<li>Customers offered renewal on their current speed achieved a response rate of approximately <strong>20%</strong></li>
+<li>Recontract ARPU became higher and more consistent</li>
+<li>Churn reduced in areas with low competition but increased in areas with higher competion</li>
+<li>The business gained a clearer view of how discount level and upgrade offers affected customer behaviour</li>
+<li>Customers could renew without calling the contact centre</li>
+<li>The Loyalty team stopped making renewal-related outbound calls, reducing their workload</li>
+</ul>
+<br>
+<p>The strongest result came from the speed-upgrade offer. Customers were more likely to respond when the renewal included a clear improvement to their service, rather than only extending their existing package.</p>
+</td>
+<td width="65%" valign="top">
+<img src="images/Analysis%20Overview.png" alt="Analysis Overview" width="100%">
+</td>
+</tr>
+</table>
 
 ---
 
