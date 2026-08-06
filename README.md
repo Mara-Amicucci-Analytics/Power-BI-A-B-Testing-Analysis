@@ -187,35 +187,71 @@ The strongest result came from the speed-upgrade offer. Customers were more like
 
 ---
 
-## Suggested Screenshots
+## SQL Example
 
-### Renewal Process
+**Simplified and anonymised PostgreSQL example based on a customer contract-history model. Table names, column names and business rules have been adapted for portfolio use.**
 
-Add the process diagram showing how data moves between SQL, Power BI, Power Automate, Salesforce and the customer acceptance page.
+```sql
+WITH contract_history AS (
+    SELECT
+        pi.customer_id,
+        pi.service_id,
+        pi.product_name,
+        pi.contract_start_date,
+        pi.contract_end_date,
+        pi.service_live,
+        pi.order_status,
+        u.name AS owner_name,
 
-### Cohort Logic
+        ROW_NUMBER() OVER (
+            PARTITION BY pi.customer_id
+            ORDER BY pi.contract_start_date
+        ) - 1 AS recontract_number,
 
-Add the cohort allocation visual showing the control group, Offer A, Offer B and upgraded-product groups.
+        LAG(pi.product_name) OVER (
+            PARTITION BY pi.customer_id
+            ORDER BY pi.contract_start_date
+        ) AS previous_product,
 
-### Renewal Performance Dashboard
+        MAX(pi.contract_start_date) OVER (
+            PARTITION BY pi.customer_id
+        ) AS latest_contract_start
 
-Add the report showing:
+    FROM product_instances pi
+    LEFT JOIN users u
+        ON pi.owner_id = u.user_id
 
-- Monthly renewal volumes
-- Recontract ARPU
-- Performance by channel
-- Performance by customer group
+    WHERE pi.customer_type <> 'Non-Revenue'
+      AND pi.order_status NOT IN ('Cancelled', 'Pending')
+)
 
-### Offer Acceptance Dashboard
+SELECT
+    customer_id,
+    service_id,
+    product_name,
+    contract_start_date,
+    contract_end_date,
+    recontract_number,
 
-Add the report showing:
+    CASE
+        WHEN recontract_number = 0 THEN 'First Contract'
+        WHEN product_name = previous_product THEN 'Renewed - Same Product'
+        ELSE 'Renewed - Different Product'
+    END AS contract_type,
 
-- Emails sent
-- Offers accepted
-- Acceptance percentage
-- Average accepted offer value
-- Results by Offer A and Offer B
+    CASE
+        WHEN contract_start_date = latest_contract_start
+             AND service_live = FALSE THEN 'Churned'
+        WHEN contract_start_date = latest_contract_start
+             AND CURRENT_DATE > contract_end_date THEN 'Live - Out of Contract'
+        WHEN contract_start_date = latest_contract_start THEN 'Live - In Contract'
+        ELSE 'Re-contracted'
+    END AS customer_status,
 
+    COALESCE(owner_name, 'Unknown') AS contract_owner
+
+FROM contract_history
+ORDER BY customer_id, contract_start_date;
 ---
 
 ## Confidentiality Note
