@@ -74,43 +74,16 @@ Customers with an additional Wi-Fi device or a currently suspended service were 
 <li>The discount level included in the offer</li>
 </ul>
 <p>Customers were then split into a control group and different offer groups.</p>
+<p>#### First-Contract Customers — Overbuilt Areas - Overall, **90% received an email**.
+#### First-Contract Customers — Not-Overbuilt Areas - Overall, **90% received an email**.
+#### Subsequent-Contract Customers - The same logic was used across overbuilt and non-overbuilt areas - Overall, **80% received an email**.</p>
+<p>This structure allowed the business to compare the impact of discount level, speed upgrade and competition on renewal rate, churn and recontract ARPU.</p>
 </td>
 <td width="65%" valign="top">
 <img src="images/Cohort%20Logic.png" alt="Customer cohort and offer logic" width="100%">
 </td>
 </tr>
 </table>
-
----
-
-#### First-Contract Customers — Overbuilt Areas
-
-- **10% Control Group** — no email
-- **72% Offer A** — lower discount
-- **18% Offer B** — higher discount
-
-Overall, **90% received an email**.
-
-#### First-Contract Customers — Not-Overbuilt Areas
-
-- **10% Control Group** — no email
-- **36% Offer A** — lower discount
-- **36% Offer B** — higher discount
-- **18% Offer B Upgrade** — higher discount with an upgrade to the next available speed tier
-
-Overall, **90% received an email**.
-
-#### Subsequent-Contract Customers
-
-The same logic was used across overbuilt and non-overbuilt areas:
-
-- **20% Control Group** — no email
-- **48% Offer A** — renewal on the current product
-- **32% Offer B Upgrade** — upgrade to the next available speed tier at the lowest available price
-
-Overall, **80% received an email**.
-
-This structure allowed the business to compare the impact of discount level, speed upgrade and competition on renewal rate, churn and recontract ARPU.
 
 ---
 
