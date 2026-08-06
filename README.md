@@ -148,7 +148,7 @@ The dashboards monitored:
 
 ## Process Flow
 
-![Mara-Amicucci-Analytics](images/Project Overview Flow.png)
+![Project overview flow](Project%20Overview%20Flow.png)
 
 
 ---
