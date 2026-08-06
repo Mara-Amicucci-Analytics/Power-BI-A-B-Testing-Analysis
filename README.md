@@ -168,6 +168,8 @@ The strongest result came from the speed-upgrade offer. Customers were more like
 
 ![Analysis Overview](images/Analysis%20Overview.png)
 
+![Performance](images/Performance.png)
+
 ---
 
 ## Key Skills Demonstrated
