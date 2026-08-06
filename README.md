@@ -148,7 +148,7 @@ The dashboards monitored:
 
 ## Process Flow
 
-![Automated renewal process](images/Project Overview Flow.png)
+![Mara-Amicucci-Analytics](images/Project Overview Flow.png)
 
 
 ---
