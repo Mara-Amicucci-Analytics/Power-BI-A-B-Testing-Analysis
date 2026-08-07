@@ -252,6 +252,7 @@ SELECT
 
 FROM contract_history
 ORDER BY customer_id, contract_start_date;
+```
 ---
 
 ## Confidentiality Note
