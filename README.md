@@ -84,7 +84,7 @@ Customers with an additional Wi-Fi device or a currently suspended service were 
 <p>This structure allowed the business to compare the impact of discount level, speed upgrade and competition on renewal rate, churn and recontract ARPU.</p>
 </td>
 <td width="65%" valign="top">
-<img src="images/Cohort%20Logic.png" alt="Customer cohort and offer logic" width="100%">
+<img src="images/cohort_logic.png" alt="Customer cohort and offer logic" width="100%">
 </td>
 </tr>
 </table>
@@ -133,7 +133,7 @@ The dashboards monitored:
 
 ## Process Flow
 
-![Project overview flow](images/Project%20Overview%20Flow.png)
+![Project overview flow](images/project_overview_flow.png)
 
 
 ---
@@ -166,9 +166,9 @@ The project delivered clear commercial and operational improvements:
 
 The strongest result came from the speed-upgrade offer. Customers were more likely to respond when the renewal included a clear improvement to their service rather than simply extending their existing package.
 
-![Analysis Overview](images/Analysis%20Overview.png)
+![Analysis Overview](images/analysis_overview.png)
 
-![Performance](images/Performance.png)
+![Performance](images/performance.png)
 
 ---
 
