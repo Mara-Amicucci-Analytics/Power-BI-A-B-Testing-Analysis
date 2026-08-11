@@ -156,8 +156,7 @@ The project delivered clear commercial and operational improvements:
 
 - The recontract rate for customers receiving the email was approximately **double** the rate of the control group.
 - The one-click renewal email achieved a response rate of **over 20%**.
-- Customers offered an upgrade to the next speed tier achieved a response rate of **over 30%**.
-- Customers offered renewal on their current speed achieved a response rate of approximately **20%**.
+- Customers offered an upgrade to the next speed tier achieved a response rate of **over 30%**
 - Recontract ARPU became higher and more consistent.
 - Churn reduced in areas with low competition but increased in areas with higher competition.
 - The business gained a clearer view of how discount levels and upgrade offers affected customer behaviour.
